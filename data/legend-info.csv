@@ -1,0 +1,6 @@
+﻿color,label,description
+#00AFCA80,Non-Violent Protests,"Non-violent demonstrations composed of citizens, workers, or security forces."
+#FEC50C80,Violent Protests,Violence directed towards citizens or security forces by protesters or an unidentified party
+#80808080,Movement of Security Forces,Mass movement of non-combative security forces.
+#FF000080,Violent Supression,"Violence directed towards protesters, citizens, or unidentified parties by security forces. "
+#FF8C0080,Foreign Intervention,Introduction of CSTO soldiers in Kazakhstan.
