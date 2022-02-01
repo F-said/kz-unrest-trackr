@@ -41,23 +41,23 @@ ui <- fluidPage(
         tabPanel("About",
             h3("The 2022 Kazakh Protests"),
             p("On January 2nd citizens and workers from the city of Zhanaozen began 
-            demonstrating to demand the ease of financial burdens, following a 
+            demonstrating to demand the lowering of prices following a 
               100% price hike on fuel."),
             p("This wasn't the first time that demonstrations began in Zhanaozen.
-              In 2011, oil workers began protesting the exploitation of their labor
-              by wealthy elites, and demanded equitable pay. In response, authorites ",
+              In 2011, oil workers began protesting for better working conditions and
+              equitable pay. In response, authorites ",
               tags$a(href="https://en.wikipedia.org/wiki/Zhanaozen_massacre","shot and killed at least 14 protesters.")
               ),
             p("The government of Kazakhstan has long operated through violence and 
-            inequality, and has retained this status-quo through its president since 
-            the  fall of the Soviet Union 30 years ago . Even though the president 
-            has nominally stepped down from his position in 2019, he has maintained
-              control over the country through a hand-picked successor."), 
+            nepotism, and has retained this status-quo through its president who
+            has retained his power since the fall of the Soviet Union 30 years ago. 
+            Even though the president has nominally stepped down from his position 
+            in 2019, he has maintained control over the country through a hand-picked successor."), 
             p("Kazakhstan's ",
               tags$a(href="https://freedomhouse.org/country/kazakhstan/freedom-world/2021", 
                                   "freedom status"),
             ", a metric which measures political rights and liberties, is 
-            23 out of 100. For reference, the United States scores 83 out of 100.  
+            23 out of 100. For reference, Russia scores 20 out of 100.  
             "),
             p("For these reasons, demonstrations of Zhanaozen evolved into protests 
             all over the country. Protesters demanded the selection of government 
@@ -66,20 +66,21 @@ ui <- fluidPage(
             p("Protests however eventually devolved into shootings, maruading, and general destruction.
               Once the ", 
               tags$a(href="https://twitter.com/netblocks/status/1478694849440358400?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1478694849440358400%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fnetblocks.org%2Freports%2Finternet-disrupted-in-kazakhstan-amid-energy-price-protests-oy9YQgy3", "the internet was shut down"),
-              "the demonstrations in Almaty gave way to even more extreme violence."
+              "the demonstrations in the city of Almaty gave way to even more extreme violence."
             ),
             p("The current president of Kazakhstan in response ordered the crackdown
               of protests through ", tags$a(href="https://eurasianet.org/kazakhstan-shoot-to-kill-protesters-orders-tough-talking-tokayev", "indiscrimant shooting"),
               " and the introduction of ", tags$a(href="https://eurasianet.org/csto-agrees-to-intervene-in-kazakhstan-unrest", "foreign security forces.")),
-            p("Following the conclusion of these events, the government has warned its citizens 
-            from posting information on this tragedy, and has touted the idea 
-            that participants of these protests were 'terrorists.'
+            p("Following the conclusion of these events, the government has warned 
+            its citizens of posting ", tags$a(href="https://www.akorda.kz/en/president-kassym-jomart-tokayevs-address-to-the-people-of-kazakhstan-801221",
+                                              "'inflammatory content'")," on the web, 
+            and has touted the idea that 'terrorists' participated in these protests.
             Their proof were harshly beaten",
               tags$a(href="https://www.rferl.org/a/kazakhstan-kyrgyz-musician-severely-beaten/31668455.html","touring musicians who confessed under 
-              duress to participating in 'terrorism.'")),
+              duress.")),
             p("Other sources however claim that this movement ", 
             tags$a(href="https://politicalviolenceataglance.org/2022/01/14/the-hidden-role-of-organized-crime-in-kazakhstans-unrest/", 
-            " became hijacked by inter-clan feuds"), " for power. While others
+            " became hijacked by interclan feuds"), " for power. While others
             claim that this was an ", tags$a(href="https://thecradle.co/Article/news/5668" ,
             "attempt at a western-orchestrated revolution.")),
             h3("Video Timeline"),
@@ -91,13 +92,17 @@ ui <- fluidPage(
             This however turned into scenes of gunfire and looting once reaching Almaty, 
               a city known for ",
               tags$a(href="https://jamestown.org/program/a-steppe-too-far-kazakhstans-gangland-power/",
-                     "state-embedded organized crime."),
-              "Violence only spiraled further after the internet was shutdown."),
+                     "state-embedded organized crime.")),
+            p("This hints that the turmoil that occured most notoriously
+              in Almaty was not the result of maruading protesters, embedded revolutionaries, 
+              or terrorists, but perhaps interclan rivalries that sensed a shift in power
+              once anti-government protests spread across the country."),
             h3("Extracting Information"),
             p("Videos and pictures are represented in 12-hour intervals, dates 
             have been determined through timestamps or descriptions, while 
             geographic locations are parsed from descriptions or geographic 
-              details. The location of events in Kazakhstan are fuzzy estimates 
+              details."),
+            p("The location of events in Kazakhstan are fuzzy estimates 
               that are only reliable to the city level, while international 
               events are only reliable to the nation level.")))
     ),
