@@ -35,7 +35,15 @@ ui <- fluidPage(
       tabsetPanel(selected = "About",
         tabPanel("Legend",
             uiOutput("eventLegend"),
-            uiOutput("interLegend")
+            uiOutput("interLegend"),
+            h4("Extracting Information"),
+            p("Videos and pictures are represented in 12-hour intervals, dates 
+            have been determined through timestamps or descriptions, while 
+            cooridinates are determined from descriptions or geographic 
+              details."),
+            p("The location of events in Kazakhstan are fuzzy estimates 
+              that are only reliable to the city level, while international 
+              events are only reliable to the nation level.")
         ),
         # tabPanel("Social Media"), TODO
         tabPanel("About",
@@ -97,14 +105,7 @@ ui <- fluidPage(
               in Almaty was not the result of maruading protesters, embedded revolutionaries, 
               or terrorists, but perhaps interclan rivalries that sensed a shift in power
               once anti-government protests spread across the country."),
-            h3("Extracting Information"),
-            p("Videos and pictures are represented in 12-hour intervals, dates 
-            have been determined through timestamps or descriptions, while 
-            geographic locations are parsed from descriptions or geographic 
-              details."),
-            p("The location of events in Kazakhstan are fuzzy estimates 
-              that are only reliable to the city level, while international 
-              events are only reliable to the nation level.")))
+           ))
     ),
     mainPanel(
       # Render interactive map of Central Asia
