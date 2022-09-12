@@ -31,7 +31,7 @@ ui <- fluidPage(
   uiOutput("warning"),
   sidebarLayout(
     position = "right",
-    sidebarPanel(
+    sidebarPanel(style = "overflow-y:scroll; height: 100vh;",
       tabsetPanel(selected = "About",
         tabPanel("Legend",
             uiOutput("eventLegend"),
@@ -107,9 +107,9 @@ ui <- fluidPage(
               once anti-government protests spread across the country."),
            ))
     ),
-    mainPanel(
+    mainPanel(style = "overflow-y:scroll; height: 100vh;",
       # Render interactive map of Central Asia
-      leafletOutput("map",width="104%", height=600),
+      leafletOutput("map", width="104%", height = "100vh"),
     
       # Render absolute slider
       absolutePanel(top=10, left=100,
