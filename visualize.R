@@ -42,7 +42,7 @@ legend_map <- function() {
       fluidRow(
         column(2,
                span(class="dot", style=paste(
-                 "background-color:",legend_dat$color[[i]],sep=""))
+                 "background-color:",legend_dat$color[[i]], ";",sep=""))
         ),
         column(10,
                p(tags$b(legend_dat$label[[i]]))

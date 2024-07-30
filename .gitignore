@@ -1,0 +1,10 @@
+# r files
+.Rproj.user
+*.Rproj
+.Rhistory
+.RData
+.Ruserdata
+
+# folders
+rsconnect
+www
